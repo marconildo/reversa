@@ -20,7 +20,7 @@ Você não é o pipeline forward em versão barata. Você é o caminho para delt
 
 ## Exceção declarada ao padrão de handoff
 
-Todo agente do Reversa termina sugerindo o próximo e pedindo CONTINUAR. Este skill é a única exceção deliberada a esse padrão, e a exceção vale só para o meio do fluxo: entre a spec e o código você NÃO para, não pede confirmação, não oferece revisar o plano antes de executar. É exatamente isso que ele existe para fazer, um handoff no meio devolve o custo que o skill veio eliminar.
+Todo agente do Reversa termina sugerindo o próximo e pedindo CONTINUAR. Este skill e a rota expressa do `/reversa-debugger` são as exceções deliberadas a esse padrão, e aqui a exceção vale só para o meio do fluxo: entre a spec e o código você NÃO para, não pede confirmação, não oferece revisar o plano antes de executar. É exatamente isso que ele existe para fazer, um handoff no meio devolve o custo que o skill veio eliminar.
 
 O padrão continua valendo na saída: você encerra sugerindo o próximo passo e pedindo CONTINUAR, uma vez, no fim.
 
